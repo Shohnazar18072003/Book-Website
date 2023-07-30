@@ -261,6 +261,17 @@
   color: #969AA0;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1300px;
+  margin: 0 auto;
+}
+
 .about {
   margin: 0px auto;
   margin-top: 200px;
@@ -381,6 +392,17 @@
   color: #B4C7E7;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1300px;
+  margin: 0 auto;
+}
+
 .trusted-by {
   margin-top: 100px;
   margin-bottom: 100px;
@@ -458,28 +480,6 @@
   height: 99.77px;
   flex-shrink: 0;
   width: 99.77px;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-.container {
-  width: 1300px;
-  margin: 0 auto;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-.container {
-  width: 1300px;
-  margin: 0 auto;
 }
 
 * {
