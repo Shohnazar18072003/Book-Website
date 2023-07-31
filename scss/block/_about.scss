@@ -1,0 +1,183 @@
+@import "./global";
+
+.about {
+  width: 100%;
+  height: 990px;
+  display: flex;
+  background: #f4f8ff;
+
+  &__box {
+    width: 100%;
+    height: 690px;
+    margin: 150px auto;
+    display: flex;
+    align-items: center;
+    gap: 142px;
+
+    &__left {
+      width: 590px;
+      height: 690px;
+      background-image: url(/images/about__banner.png);
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+
+    &__right {
+      width: 567.776px;
+      height: 568px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 41px;
+
+      &__title {
+        width: 567.776px;
+        height: 367px;
+
+        h3.title {
+          color: #1b3764;
+          font-family: "Cardo", sans-serif;
+          font-size: 45px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 54px;
+          letter-spacing: -0.9px;
+          margin-bottom: 19px;
+        }
+
+        p.line {
+          width: 55px;
+          height: 3px;
+          background: #ffca42;
+          margin-bottom: 22px;
+        }
+
+        p.subtitle {
+          width: 567px;
+          height: 128px;
+          color: #969aa0;
+          font-family: "Inter", sans-serif;
+          font-size: 19px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 34.2px;
+          letter-spacing: -0.19px;
+          margin-bottom: 44px;
+        }
+
+        .counter {
+          width: 567px;
+          height: 97px;
+          display: inline-flex;
+          align-items: center;
+          gap: 32px;
+
+          &__number1 {
+            width: 139px;
+            height: 97px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+
+            h6.title {
+              color: #1b3764;
+              font-family: "Cardo", sans-serif;
+              font-size: 55px;
+              font-style: normal;
+              font-weight: 700;
+              line-height: 66px;
+              letter-spacing: -1.1px;
+            }
+
+            p.subtitle1 {
+              margin: 0;
+              padding: 0;
+              display: inline-block;
+              color: #969aa0;
+              font-family: 'Inter', sans-serif;
+              font-size: 18px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: 30.6px;
+              letter-spacing: -0.18px;
+            }
+          }
+
+          &__number2 {
+            width: 150px;
+            height: 97px;
+            padding-left: 35px;
+            border-left: 1px solid #ffca42;
+
+            h6.title {
+              color: #1b3764;
+              font-family: "Cardo", sans-serif;
+              font-size: 55px;
+              font-style: normal;
+              font-weight: 700;
+              line-height: 66px;
+              letter-spacing: -1.1px;
+            }
+
+            p.subtitle1 {
+              margin: 0;
+              padding: 0;
+              display: inline-block;
+              color: #969aa0;
+              font-family: 'Inter', sans-serif;
+              font-size: 18px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: 30.6px;
+              letter-spacing: -0.18px;
+            }
+          }
+
+          &__number3 {
+            width: 192px;
+            height: 97px;
+            padding-left: 35px;
+            border-left: 1px solid #ffca42;
+
+            h6.title {
+              color: #1b3764;
+              font-family: "Cardo", sans-serif;
+              font-size: 55px;
+              font-style: normal;
+              font-weight: 700;
+              line-height: 66px;
+              letter-spacing: -1.1px;
+            }
+
+            p.subtitle1 {
+              margin: 0;
+              padding: 0;
+              display: inline-block;
+              color: #969aa0;
+              font-family: 'Inter', sans-serif;
+              font-size: 18px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: 30.6px;
+              letter-spacing: -0.18px;
+            }
+          }
+        }
+      }
+
+      &__details {
+        width: 477px;
+        height: 160px;
+        display: flex;
+        padding: 15px 18px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 10px;
+
+        
+      }
+    }
+  }
+}

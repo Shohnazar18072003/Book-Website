@@ -1,0 +1,89 @@
+@import './global';
+
+.learn {
+  width: 100%;
+  height: 1108px;
+  display: flex;
+
+  &__box {
+    width: 100%;
+    height: 819px;
+    margin: 145px auto 144px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 53px;
+
+    &__title {
+      width: 417px;
+      height: 76px;
+
+      h3.title {
+        width: 417px;
+        color: #1b3764;
+        text-align: center;
+        font-family: "Cardo", sans-serif;
+        font-size: 45px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 54px;
+        letter-spacing: -0.9px;
+        margin-bottom: 19px;
+      }
+
+      p.line {
+        width: 55px;
+        height: 3px;
+        margin: 0 auto;
+        background: #ffca42;
+      }
+    }
+
+    &__content {
+      width: 100%;
+      height: 690px;
+      display: flex;
+      align-items: center;
+      gap: 99px;
+
+      &__left {
+        width: 611px;
+        height: 630px;
+
+        &__card {
+          width: 290px;
+          height: 299px;
+          display: inline-block;
+          margin-right: 13px;
+          margin-bottom: 13px;
+          background: #f4f8ff;
+          padding: 41px 33px;
+          align-items: flex-start;
+          box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+
+          img {
+            margin-bottom: 31px;
+          }
+
+          p.subtitle {
+            width: 224px;
+            color: #1b3764;
+            font-family: 'Cardo', sans-serif;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 33.6px;
+            letter-spacing: -0.24px;
+          }
+        }
+      }
+
+      &__right {
+        width: 590px;
+        height: 690px;
+        background-image: url(/images/learn__banner.png);
+      }
+    }
+  }
+}
+
