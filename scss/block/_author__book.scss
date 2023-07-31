@@ -1,1 +1,242 @@
 @import './global';
+
+@mixin authorbookcard{
+    width: 292px;
+    height: 396px;
+    flex-shrink: 0;
+    background: #FFF;
+}
+.author__book_header{
+    margin-top: 50px;
+    text-align: center;
+    text-align: center;
+    font-family: Cardo;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 54px */
+    letter-spacing: -0.9px;
+    color: #1B3764;
+}
+.author_book_container{
+    display: flex;
+    width: 1299px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 66px;
+    margin-top: 100px;
+    .author_book_card1{
+        @include authorbookcard();
+        text-align: center;
+        position: relative;
+        display: flex;
+        border: 5px solid #FFF;
+        .card1_img{
+            position: absolute;
+            top: 10px;
+            left: 30px;
+        }
+        .card1_right{
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            width: 350px;
+            padding: 10px;
+            text-align: center;
+            padding-top: 20px;
+        }
+        .card1_p{
+            margin-top: 10px;
+            text-align: center;
+            font-family: Cardo;
+            font-size: 12px;
+            font-style: italic;
+            font-weight: 400;
+            line-height: 130%; /* 15.6px */
+            letter-spacing: -0.24px;
+            color: #1B3764;
+        }
+        .card1_h3{
+            text-align: center;
+            font-family: Inter;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 125%; /* 15px */
+            letter-spacing: 1.2px;
+            text-transform: uppercase;
+            color: #1B3764;
+        }
+        .card1_subp{
+            text-align: center;
+            font-family: Cardo;
+            font-size: 14px;
+            font-style: italic;
+            font-weight: 400;
+            line-height: 150%; /* 21px */
+            letter-spacing: -0.28px;
+            color: #D0A129;
+        }
+        .card_ul{
+            display: flex;
+            list-style: none;
+            li{
+                margin-top: 20px;
+                margin-left: 30px;
+                h1{
+                    font-family: Cardo;
+                    font-size: 24px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 120%; /* 28.8px */
+                    letter-spacing: -0.24px;
+                    color: #1B3764;
+                }
+                p{
+                    font-family: Inter;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 170%; /* 30.6px */
+                    letter-spacing: -0.18px;
+                    color: #969AA0;
+                }
+            }
+        }
+        .card1_right_header{
+            font-family: Cardo;
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 120%; /* 38.4px */
+            letter-spacing: -0.64px;
+            color: #1B3764;
+        }
+        .card1_right_p{
+            font-family: Inter;
+            font-size: 19px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 180%; /* 34.2px */
+            letter-spacing: -0.19px;
+            color: #969AA0;
+            height: 94px;
+            width: 262px;
+        }
+}
+    .author_book_card2{
+        @include authorbookcard();
+        border: 12px solid #DBE1E9;
+        margin-left: 250px;
+        text-align: center;
+        display: flex;
+        .card2_left{
+            padding: 20px;
+        }
+        .card2_left_header{
+            height: 80.77px;
+            flex-shrink: 0;
+            width: 229.997px;
+            text-align: center;
+            font-family: Lexend;
+            font-size: 35px;
+            font-style: normal;
+            font-weight: 800;
+            line-height: 110%; /* 38.5px */
+            letter-spacing: 1.75px;
+            color: #1B3764;
+        }
+        .card2_left_p{
+            height: 31px;
+            flex-shrink: 0;
+            width: 242px;
+            text-align: center;
+            font-family: Cardo;
+            font-size: 10px;
+            font-style: italic;
+            font-weight: 400;
+            line-height: 160%; /* 16px */
+            letter-spacing: -0.1px;
+            color: #1B3764;
+        }
+        .card2_left_img{
+            height: 160px; 
+            width: 145px;
+        }
+        .card2_left_subheader{
+            line-height: 125%; /* 18.75px */
+            text-align: center;
+            font-family: Cardo;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 700;
+            color: #1B3764;
+        }
+        .card2_left_subp{
+            text-align: center;
+            font-family: Cardo;
+            font-size: 10px;
+            font-style: italic;
+            font-weight: 400;
+            line-height: 170%; /* 17px */
+            letter-spacing: -0.1px;
+            color: #1B3764;
+        }
+        .card2_right{
+             display: flex;
+            flex-direction: column;
+            gap: 30px;
+            width: 350px;
+            padding: 10px;
+            text-align: center;
+            padding-top: 20px;
+            .card1_right_header{
+                font-family: Cardo;
+                font-size: 32px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 120%; /* 38.4px */
+                letter-spacing: -0.64px;
+                color: #1B3764;
+            }
+            .card1_right_p{
+                font-family: Inter;
+                font-size: 19px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 180%; /* 34.2px */
+                letter-spacing: -0.19px;
+                color: #969AA0;
+                height: 94px;
+                width: 262px;
+            }
+            .card_ul{
+                display: flex;
+                list-style: none;
+                li{
+                    margin-top: 20px;
+                    margin-left: 30px;
+                    h1{
+                        font-family: Cardo;
+                        font-size: 24px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 120%; /* 28.8px */
+                        letter-spacing: -0.24px;
+                        color: #1B3764;
+                    }
+                    p{
+                        font-family: Inter;
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 170%; /* 30.6px */
+                        letter-spacing: -0.18px;
+                        color: #969AA0;
+                    }
+                }
+            }
+        }
+        
+    }
+}
