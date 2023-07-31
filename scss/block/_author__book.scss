@@ -24,6 +24,7 @@
     justify-content: center;
     align-items: flex-start;
     gap: 66px;
+    margin: 0 auto;
     margin-top: 100px;
     .author_book_card1{
         @include authorbookcard();
